@@ -1,0 +1,14 @@
+@media screen and(max-width:680px) {
+    .entete {
+        font-size: 13px;
+        line-height: 18.54px;
+        padding: 5.5px 6.79px 5.46px 11.51px;
+    }
+
+    .corps-collapse {
+        padding: 23.08px 6.91px 52.28px 11.51px;
+        font-size: 12px;
+        line-height: 17.11px;
+    }
+
+}

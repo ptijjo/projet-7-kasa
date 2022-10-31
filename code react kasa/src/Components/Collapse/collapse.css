@@ -1,0 +1,39 @@
+.entete {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    padding: 5.75px 18.08px 7.25px 18.08px;
+    height: 47px;
+    background-color: #FF6060;
+    border-radius: 5px;
+
+}
+
+.corps-collapse {
+    width: 100%;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 36px 27px 19px 18px;
+    color: #FF6060;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.fa-solid {
+    cursor: pointer;
+}

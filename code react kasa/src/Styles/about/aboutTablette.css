@@ -1,0 +1,29 @@
+@media screen and (max-width:1023px) {
+    .About {
+        padding: 20px;
+    }
+
+    .About .about {
+        border-bottom: 1px solid #FF6060;
+
+    }
+
+    .About .nav .section2 {
+        margin-top: 17px;
+    }
+
+    .section2 img {
+        object-position: none;
+    }
+
+    .collapse {
+        width: 100%;
+        margin-top: 19px;
+    }
+
+
+    .About .Footer {
+        margin-top: 60px;
+    }
+
+}

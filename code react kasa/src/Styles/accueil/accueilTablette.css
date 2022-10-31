@@ -1,0 +1,80 @@
+@media screen and (max-width :1023px) {
+    .accueil {
+
+        padding: 10px;
+    }
+
+    .accueil .home {
+        border-bottom: 1px solid #FF6060;
+    }
+
+    .accueil .Header {
+        margin-bottom: 16px;
+    }
+
+    .section1 {
+        width: 100%;
+        height: 111px;
+        margin-bottom: 22px;
+
+    }
+
+    .section1 p {
+        height: 48px;
+        font-size: 24px;
+        line-height: 24px;
+        position: relative;
+        bottom: 70%;
+    }
+
+    .Gallery {
+
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: none;
+        align-items: center;
+        padding: 0;
+        border-radius: 25px;
+        background-color: white;
+    }
+
+    .Gallery li {
+        width: 335px;
+        height: 255px;
+        margin-bottom: 20px;
+    }
+
+    .Gallery li:hover {
+        scale: 1.05;
+        cursor: pointer;
+        transition: scale 0.2s;
+    }
+
+    .Gallery li img {
+        object-fit: cover;
+        border-radius: 10px;
+        width: 335px;
+        height: 255px;
+        filter: brightness(70%);
+    }
+
+    .Gallery li p {
+        text-align: left;
+        font-size: 18px;
+        font-weight: 500;
+        font-style: normal;
+        line-height: 25.67px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 295.59px;
+        height: 52px;
+        position: relative;
+        bottom: 60px;
+        padding: 0 20px 20px 20px;
+        color: #FFFFFF;
+        display: flex;
+        align-items: center;
+
+    }
+
+}

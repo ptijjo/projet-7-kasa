@@ -1,0 +1,29 @@
+@media screen and (max-width:767px) {
+    .Footer {
+        width: 100%;
+        height: 109px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #000000;
+        padding-top: 20px;
+    }
+
+    .Footer img {
+        width: 122px;
+        height: 39.44px;
+        margin-bottom: 25.56px;
+    }
+
+    .Footer p {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 17.11px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #FFFFFF;
+
+    }
+
+}

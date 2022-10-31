@@ -1,0 +1,204 @@
+@media screen and (max-width:1023px) {
+    .ficheLogement {
+        padding: 20px;
+        width: 100%;
+    }
+
+
+    .body {
+
+        margin-top: 27px;
+    }
+
+    .caroussel {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 25px;
+
+    }
+
+    .caroussel .slider {
+        width: 105%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #FFFFFF;
+        font-size: 30px;
+        height: 255px;
+        margin-bottom: 10px;
+
+    }
+
+    .caroussel .gauche {
+        position: relative;
+        left: 7%;
+    }
+
+    .caroussel .droite {
+        position: relative;
+        right: 7%;
+    }
+
+    .caroussel .bullet {
+        width: 40%;
+        justify-content: space-around;
+        align-items: center;
+        color: black;
+        font-weight: 100;
+        font-size: x-small;
+        display: flex;
+    }
+
+    .caroussel .bulle {
+        cursor: pointer;
+        color: #FF6060;
+    }
+
+    .caroussel img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        border-radius: 25px;
+    }
+
+    .information {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-top: 30px;
+        flex-direction: column;
+    }
+
+    .adress-tag {
+        width: 100%;
+        justify-content: space-between;
+        display: flex;
+
+
+    }
+
+    .titre-adresse {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .titre {
+        font-size: 18px;
+        line-height: 25.67px;
+    }
+
+    .adresse {
+        font-size: 14px;
+        line-height: 19.96px;
+    }
+
+    .agent-note {
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .agent {
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .agent p {
+        font-size: 12px;
+        line-height: 17.11px;
+        width: 30%;
+    }
+
+    .agent img {
+        width: 32px;
+        height: 32px;
+        border-radius: 50px;
+
+    }
+
+    .note {
+        width: 50%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 0px;
+    }
+
+    .tag {
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .tag p {
+        padding: 2.16px 30.96px 1.84px 29.07px;
+        font-size: 10px;
+        line-height: 14.26px;
+
+
+    }
+
+    .description-equippement {
+        width: 100%;
+        margin-top: 24px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .description {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .equipement {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .equipement .corps-collapse {
+        flex-direction: column;
+        height: 249px;
+
+    }
+
+    .rate {
+        width: 98px;
+        height: 18px;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .rate span {
+        text-align: left;
+    }
+
+    .rate i {
+        font-size: 14px;
+        width: 20px;
+        height: 30px;
+    }
+
+
+    .rate .fa-solid {
+        color: #FF6060;
+    }
+
+    .rate .fa-regular {
+        color: #E3E3E3;
+    }
+}
