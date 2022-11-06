@@ -45,7 +45,7 @@
     }
 
     .Gallery li:hover {
-        scale: 1.05;
+        scale: 1;
         cursor: pointer;
         transition: scale 0.2s;
     }
